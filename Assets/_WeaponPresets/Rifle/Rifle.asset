@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0feeda75d431c45499372c8e158e7f28, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  weaponName: Test Rifle
+  damage: 40
+  weaponSlot: 0
+  equipTime: 1
+  playerSpeed: 3.7
+  firingType: 0
+  firingPoint: 0.5
+  firePerSecond: 9.75
+  maxAmmo: 25
+  ammoReserve: 75
+  reloadingType: 0
+  reloadTime: 2.5
+  bulletsReloaded: 0
+  minFiringAngle: 1
+  maxFiringAngle: 10
+  angleIncrement: 1
+  angleDecrement: 1
+  movementInaccuracyFactor: 0.5
+  weaponGroundSprite: {fileID: -9095717837082945937, guid: 128df3d95458fad48b9e3250c2ea51ee, type: 3}
+  equip: {fileID: 8300000, guid: 30e81100748daba41b7e3cdfdb596f93, type: 3}
+  fire: {fileID: 8300000, guid: 20204194179e7954495ebd6ac50aa1b5, type: 3}
+  reload: {fileID: 8300000, guid: 2e3409d264c63034e8837d2927c91eb2, type: 3}
+  empty: {fileID: 8300000, guid: d089fc4dcf807334b99228bd9994d032, type: 3}
+  miss: {fileID: 0}
+  stab: {fileID: 0}

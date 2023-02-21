@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0feeda75d431c45499372c8e158e7f28, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  weaponName: Test Knife
+  damage: 25
+  weaponSlot: 2
+  equipTime: 0.1
+  playerSpeed: 5
+  firingType: 0
+  firingPoint: 0.5
+  firePerSecond: 1
+  maxAmmo: 0
+  ammoReserve: 0
+  reloadingType: 0
+  reloadTime: 0
+  bulletsReloaded: 0
+  minFiringAngle: 0
+  maxFiringAngle: 0
+  angleIncrement: 0
+  angleDecrement: 0
+  movementInaccuracyFactor: 0
+  weaponGroundSprite: {fileID: -9095717837082945937, guid: 128df3d95458fad48b9e3250c2ea51ee, type: 3}
+  equip: {fileID: 8300000, guid: 1df7a036964a25341ba07c118beacb5b, type: 3}
+  fire: {fileID: 0}
+  reload: {fileID: 0}
+  empty: {fileID: 0}
+  miss: {fileID: 8300000, guid: 3275a254a368ff84294b9c4e42678255, type: 3}
+  stab: {fileID: 8300000, guid: ab3899aff7ed8bb4588c1eb8356548a3, type: 3}
